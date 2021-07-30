@@ -1,0 +1,11 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<header>
+    <nav class = "header-div">
+        <a href="index.jsp">Home</a>
+        <a href="myresource_member.jsp">Resource</a>
+        <a href="MainController?action=view-history">Request History</a>
+        <a href="#">Welcome ${sessionScope.LOGIN_USER.fullName}</a>
+        <a href="LogoutController">Logout</a>
+    </nav>
+</header>
